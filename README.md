@@ -9,6 +9,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--OR
+    <link rel=”stylesheet” href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    -->
+  <!-- Below is Optional - If you want to add your own styles, create a css folder and in that add a file called style.css or styles.css or whatever you normally use.  Then after the Default  bootstrap styles link above add the following tag (put it afterward so that it over writes any bootstrap functionality 
+  <link rel=”stylesheet” href=”css/styles.css”> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,10 +25,17 @@
   </head>
   <body>
     <h1>This is a template for Bootstrap</h1>
-
+    <p>This is just a bunch of text that we added to make sure the site is working properly so far.  It has several lines of text to make sure it is breaking properly.  I have really had a great time on my last vacation which was a cruise out of Puerto rico.  </p>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!--OR
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+-->
+  <!--Below is optional - You can also add your own javascript document.  If you want to, you need to create a folder called js and in there add a file called script.js.  Then this needs to be referenced in this index page
+  <script src=”js/script.js></script> -->
+
   </body>
 </html>
